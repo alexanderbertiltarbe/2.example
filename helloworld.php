@@ -30,3 +30,26 @@
 	}
 
 ?>
+
+<br>
+
+<?php
+
+	// loop
+	
+	for ($i=1; $i <= $age; $i=$i+1){
+		
+		//if condition is true
+		echo $i;
+		
+	}
+
+?>
+<br>
+
+<?php
+
+	date_default_timezone_set('EET');
+	echo date("Y/m/d")." ". date("h:i:sa");
+
+?>
